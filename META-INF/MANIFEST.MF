@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: generatedtest
+Bundle-SymbolicName: generatedtest;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Export-Package: .
+Require-Bundle: hu.bme.mit.inf.dslreasoner.viatrasolver.partialinterpretationlanguage,
+ hu.bme.mit.inf.dslreasoner.logic.model,
+ org.eclipse.viatra.query.runtime,
+ org.eclipse.viatra.query.runtime.rete,
+ org.eclipse.viatra.query.runtime.localsearch,
+ org.eclipse.xtext.xbase.lib,
+ org.eclipse.emf.ecore;bundle-version="2.14.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.apache.log4j
