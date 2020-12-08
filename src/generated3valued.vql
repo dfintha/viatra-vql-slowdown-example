@@ -1,3 +1,7 @@
+// The contents of this file originate from the viatra/VIATRA-Generator project
+// (https://github.com/viatra/VIATRA-Generator/blob/master/Tests/Ecore-Plugin/outputs/debug/generated3valued.vql_deactivated).
+// All credits belong to its original author(s).
+
 import epackage "http://www.bme.hu/mit/inf/dslreasoner/viatrasolver/partialinterpretationlanguage"
 import epackage "http://www.bme.hu/mit/inf/dslreasoner/logic/model/problem"
 import epackage "http://www.bme.hu/mit/inf/dslreasoner/logic/model/language"
@@ -8,7 +12,7 @@ import epackage "http://www.bme.hu/mit/inf/dslreasoner/logic/model/language"
 private pattern interpretation(problem:LogicProblem, interpretation:PartialInterpretation) {
 	PartialInterpretation.problem(interpretation,problem);
 }
-	
+
 /////////////////////////
 // 0.1 Existence
 /////////////////////////
